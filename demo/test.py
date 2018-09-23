@@ -1,8 +1,7 @@
-import numpy as np
-import pandas as pd
+from sklearn.datasets import load_iris
+
+if __name__ == '__main__':
+    data=load_iris()
+    print(data)
 
 
-a='1980-03-20'
-b='1980-01-01'
-
-print(a>b)
