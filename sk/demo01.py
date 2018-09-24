@@ -1,10 +1,50 @@
 '''
-https://blog.csdn.net/qq_16234613/article/details/76534673 机器学习url
 
-https://blog.csdn.net/kevinelstri/article/details/60960574 机器学习教程
+https://blog.csdn.net/qq_33792843/article/details/78477632
 '''
+import pandas as pd
+from matplotlib.font_manager import FontProperties
 
 from sklearn import datasets
-iris = datasets.load_iris()
+from sklearn.linear_model import LinearRegression
 
-print(iris)
+import matplotlib.pyplot as plt
+"""
+mac中文编码
+"""
+def getChineseFont():
+    return FontProperties(fname='/System/Library/Fonts/PingFang.ttc')
+
+boston = datasets.load_boston()
+# #print(boston.DESCR)
+#
+# n_samples = len(boston.target)
+#
+#
+# print(boston.target)
+#print(boston.keys)
+bos=pd.DataFrame(boston.data)
+#print(bos)
+bos.columns= boston.feature_names
+bos['PRICE'] = boston.target
+
+
+X=bos.drop('PRICE',axis=1)
+lm = LinearRegression()
+
+lm.fit(X, bos.PRICE)
+
+
+print('线性回归算法w值：', lm.coef_)
+
+print('线性回归算法b值: ', lm.intercept_)
+
+plt.scatter(bos.RM, bos.PRICE)
+
+plt.xlabel(u'住宅平均房间数', fontproperties=getChineseFont())
+
+plt.ylabel(u'房屋价格', fontproperties=getChineseFont())
+
+plt.title(u'RM与PRICE的关系', fontproperties=getChineseFont())
+
+plt.show()
