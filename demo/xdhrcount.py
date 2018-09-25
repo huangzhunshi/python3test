@@ -200,7 +200,6 @@ def showChart(df_edu,df_sex,df_birth,df_level,df_channel):
 
    pie4=ax4.pie(level_value,   labels=level_lable, shadow=True, autopct='%1.1f%%')
 
-   #pie4=ax4.bar(level_lable,level_value,fc='r')
    setChinafont(pie4)
 
    channel_lable=df_channel["lable"].values

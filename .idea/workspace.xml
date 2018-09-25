@@ -7,7 +7,6 @@
     <list default="true" id="73114219-7671-40ea-9d81-c8b381eda730" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/xdhrcount.py" afterPath="$PROJECT_DIR$/demo/xdhrcount.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sk/demo01.py" afterPath="$PROJECT_DIR$/sk/demo01.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +26,7 @@
     <SUITE FILE_PATH="coverage/python3_test$test03.coverage" NAME="test03 Coverage Results" MODIFIED="1537775579538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python3_test$test005.coverage" NAME="test005 Coverage Results" MODIFIED="1530373850290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas" />
     <SUITE FILE_PATH="coverage/python3_test$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1537843659199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk" />
-    <SUITE FILE_PATH="coverage/python3_test$xdhrcount.coverage" NAME="xdhrcount Coverage Results" MODIFIED="1537847139390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/python3_test$xdhrcount.coverage" NAME="xdhrcount Coverage Results" MODIFIED="1537847211735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/python3_test$demox.coverage" NAME="demox Coverage Results" MODIFIED="1537549873790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/python3_test$knn.coverage" NAME="knn Coverage Results" MODIFIED="1520608135508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python3_test$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1537773463765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sklearn" />
@@ -47,11 +46,11 @@
       <file leaf-file-name="xdhrcount.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/xdhrcount.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+            <state relative-caret-position="-71">
+              <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1537847063103" expanded="true" signature="576:822" ph="select e.id,... hr_resume" />
+                <marker date="1537847211728" expanded="true" signature="576:822" ph="select e.id,... hr_resume" />
               </folding>
             </state>
           </provider>
@@ -545,7 +544,7 @@
       <workItem from="1537716407831" duration="4684000" />
       <workItem from="1537772941729" duration="733000" />
       <workItem from="1537775363784" duration="292000" />
-      <workItem from="1537782377228" duration="6821000" />
+      <workItem from="1537782377228" duration="6908000" />
     </task>
     <task id="LOCAL-00001" summary="提交新方法">
       <created>1537718931704</created>
@@ -589,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537793590991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hr分析新增来源模块">
+      <created>1537847186191</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1537847186191</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131739000" />
+    <option name="totallyTimeSpent" value="131826000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,7 +659,8 @@
     <MESSAGE value="提交新方法" />
     <MESSAGE value="提交新的方法，sklearn的教程" />
     <MESSAGE value="波士顿房价预测相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="波士顿房价预测相关" />
+    <MESSAGE value="hr分析新增来源模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="hr分析新增来源模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1016,11 +1023,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/xdhrcount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+        <state relative-caret-position="-71">
+          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1537847063103" expanded="true" signature="576:822" ph="select e.id,... hr_resume" />
+            <marker date="1537847211728" expanded="true" signature="576:822" ph="select e.id,... hr_resume" />
           </folding>
         </state>
       </provider>
