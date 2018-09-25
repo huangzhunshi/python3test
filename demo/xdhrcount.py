@@ -27,7 +27,7 @@ def getEmpList():
     }
     db=pymysql.connect(**config)
     sql="""
-      select e.id, nick_name,e.sex,education_first,r.birth_date,e.level_id from  hr_resume as r left JOIN  agent_employee as e
+      select e.id, nick_name,e.sex,education_first,r.birth_date,e.level_id ,recruite_channel from  hr_resume as r left JOIN  agent_employee as e
       on e.id=r.employee_id
       where  real_status=1 and status=0 and agent_id=1
       order by e.id desc
@@ -147,6 +147,16 @@ def getCleanCountLevel(df):
     # print(user_clean_sort)
     # return user_clean_sort
 
+'''
+清洗和统计来源
+'''
+def getCleanCountChannel(df):
+  user_clean=df.replace("boss直聘","Boss直聘").replace("","其他网络").replace("网络招聘","其他网络").\
+      replace("猎聘","其他网络").replace("大街网","其他网络").replace("58同城","其他网络").replace("51job","其他网络").\
+      replace("大街网","其他网络").replace("智联招聘","其他网络").replace("其他","其他网络").groupby("recruite_channel").count().reset_index()
+  user_clean["lable"]= user_clean.recruite_channel +"["+user_clean.id.map(str)+"人]"
+  print(user_clean)
+  return user_clean
 
 
 '''
@@ -161,37 +171,51 @@ def setChinafont(chart):
 '''
 显示饼状图
 '''
-def showChart(df_edu,df_sex,df_birth,df_level):
+def showChart(df_edu,df_sex,df_birth,df_level,df_channel):
    edu_lable=df_edu["lable"].values
    edu_value=df_edu["id"].values
-   ax1=plt.subplot(221)
+   ax1=plt.subplot(321)
    ax1.set_title(u'学历分布',fontproperties=getChineseFont(),fontsize=12)
    pie1=ax1.pie(edu_value,   labels=edu_lable, shadow=True, autopct='%1.1f%%')
    setChinafont(pie1)
 
    sex_lable=df_sex["lable"].values
    sex_value=df_sex["id"].values
-   ax2=plt.subplot(222)
+   ax2=plt.subplot(322)
    ax2.set_title(u'性别分布',fontproperties=getChineseFont(),fontsize=12)
    pie2=ax2.pie(sex_value,   labels=sex_lable, shadow=True, autopct='%1.1f%%')
    setChinafont(pie2)
 
    birth_lable=df_birth["lable"].values
    birth_value=df_birth["id"].values
-   ax3=plt.subplot(223)
+   ax3=plt.subplot(323)
    ax3.set_title(u'年龄分布',fontproperties=getChineseFont(),fontsize=12)
    pie3=ax3.pie(birth_value,   labels=birth_lable, shadow=True, autopct='%1.1f%%')
    setChinafont(pie3)
 
    level_lable=df_level["lable"].values
    level_value=df_level["id"].values
-   ax4=plt.subplot(224)
+   ax4=plt.subplot(324)
    ax4.set_title(u'level分布',fontproperties=getChineseFont(),fontsize=12)
 
    pie4=ax4.pie(level_value,   labels=level_lable, shadow=True, autopct='%1.1f%%')
 
    #pie4=ax4.bar(level_lable,level_value,fc='r')
    setChinafont(pie4)
+
+   channel_lable=df_channel["lable"].values
+   channel_value=df_channel["id"].values
+   ax5=plt.subplot(325)
+   ax5.set_title(u'来源渠道分布',fontproperties=getChineseFont(),fontsize=12)
+
+   pie5=ax5.pie(channel_value,   labels=channel_lable, shadow=True, autopct='%1.1f%%')
+
+   #ax5.legend(prop=getChineseFont(), loc=0, bbox_to_anchor=(0.82, 1))  # 图例
+   #设置legend的字体大小
+   # leg = ax5.get_legend()
+   # ltext = leg.get_texts()
+   # pie5.setp(ltext, fontsize=6)
+   setChinafont(pie5)
 
    plt.show()
 
@@ -205,7 +229,8 @@ if __name__ == '__main__':
     df_sex=getCleanCountSex(user)
     df_birth=getCleanCountBirth(user)
     df_level=getCleanCountLevel(user)
+    df_channel=getCleanCountChannel(user)
 
-    showChart(df_edu,df_sex,df_birth,df_level)
+    showChart(df_edu,df_sex,df_birth,df_level,df_channel)
 
 

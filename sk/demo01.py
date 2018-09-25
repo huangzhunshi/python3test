@@ -34,7 +34,11 @@ lm = LinearRegression()
 
 lm.fit(X, bos.PRICE)
 
+bos10= X.head(5)
 
+#print(bos10)
+a= lm.predict(bos10)
+print(a)
 print('线性回归算法w值：', lm.coef_)
 
 print('线性回归算法b值: ', lm.intercept_)
