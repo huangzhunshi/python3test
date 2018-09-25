@@ -4,9 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/test04.py" line="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73114219-7671-40ea-9d81-c8b381eda730" name="Default" comment="">
+    <list default="true" id="73114219-7671-40ea-9d81-c8b381eda730" name="Default" comment="hr分析新增来源模块">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sk/demo02.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/xdhrcount.py" afterPath="$PROJECT_DIR$/demo/xdhrcount.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sk/demo01.py" afterPath="$PROJECT_DIR$/sk/demo01.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +27,11 @@
     <SUITE FILE_PATH="coverage/python3_test$test03.coverage" NAME="test03 Coverage Results" MODIFIED="1537775579538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python3_test$test005.coverage" NAME="test005 Coverage Results" MODIFIED="1530373850290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas" />
     <SUITE FILE_PATH="coverage/python3_test$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1537843659199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk" />
-    <SUITE FILE_PATH="coverage/python3_test$xdhrcount.coverage" NAME="xdhrcount Coverage Results" MODIFIED="1537847211735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/python3_test$xdhrcount.coverage" NAME="xdhrcount Coverage Results" MODIFIED="1537865917225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/python3_test$demox.coverage" NAME="demox Coverage Results" MODIFIED="1537549873790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/python3_test$knn.coverage" NAME="knn Coverage Results" MODIFIED="1520608135508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python3_test$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1537773463765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sklearn" />
+    <SUITE FILE_PATH="coverage/python3_test$demo02.coverage" NAME="demo02 Coverage Results" MODIFIED="1537873392628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sk" />
     <SUITE FILE_PATH="coverage/python3_test$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1530007258181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas" />
     <SUITE FILE_PATH="coverage/python3_test$learn.coverage" NAME="learn Coverage Results" MODIFIED="1537771480583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages" />
     <SUITE FILE_PATH="coverage/python3_test$test07.coverage" NAME="test07 Coverage Results" MODIFIED="1522556939202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -43,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="xdhrcount.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="xdhrcount.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/xdhrcount.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="157" column="3" lean-forward="false" selection-start-line="157" selection-start-column="3" selection-end-line="157" selection-end-column="3" />
+            <state relative-caret-position="171">
+              <caret line="205" column="40" lean-forward="false" selection-start-line="205" selection-start-column="40" selection-end-line="205" selection-end-column="40" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <marker date="1537847274439" expanded="true" signature="576:822" ph="select e.id,... hr_resume" />
@@ -61,6 +63,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test004.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pandas/test004.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -89,10 +101,22 @@
       <file leaf-file-name="demo01.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sk/demo01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="236">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="37" selection-end-column="20" />
               <folding>
                 <element signature="e#68#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo02.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sk/demo02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,26 +137,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
               <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test07.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test07.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test08.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test08.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -208,9 +212,11 @@
         <option value="$PROJECT_DIR$/sklearn/demo1.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sklearn/demo2.py" />
-        <option value="$PROJECT_DIR$/sk/demo01.py" />
         <option value="$PROJECT_DIR$/demo/pie2.py" />
         <option value="$PROJECT_DIR$/demo/xdhrcount.py" />
+        <option value="$PROJECT_DIR$/sk/demo2.py" />
+        <option value="$PROJECT_DIR$/sk/demo01.py" />
+        <option value="$PROJECT_DIR$/sk/demo02.py" />
       </list>
     </option>
   </component>
@@ -322,7 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xdhrcount">
+  <component name="RunManager" selected="Python.demo02">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -422,6 +428,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="demo02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python3_test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sk/demo02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="pie2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -436,24 +460,6 @@
       <module name="python3_test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/pie2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="test03" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python3_test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test03.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -495,19 +501,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test03" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test04" />
-      <item index="2" class="java.lang.String" itemvalue="Python.demo01" />
-      <item index="3" class="java.lang.String" itemvalue="Python.xdhrcount" />
-      <item index="4" class="java.lang.String" itemvalue="Python.pie2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test04" />
+      <item index="1" class="java.lang.String" itemvalue="Python.demo01" />
+      <item index="2" class="java.lang.String" itemvalue="Python.xdhrcount" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pie2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.demo02" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.xdhrcount" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pie2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.demo01" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test04" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test03" />
+        <item index="0" class="java.lang.String" itemvalue="Python.demo02" />
+        <item index="1" class="java.lang.String" itemvalue="Python.xdhrcount" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pie2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.demo01" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test04" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +550,7 @@
       <workItem from="1537716407831" duration="4684000" />
       <workItem from="1537772941729" duration="733000" />
       <workItem from="1537775363784" duration="292000" />
-      <workItem from="1537782377228" duration="6934000" />
+      <workItem from="1537782377228" duration="13611000" />
     </task>
     <task id="LOCAL-00001" summary="提交新方法">
       <created>1537718931704</created>
@@ -602,11 +608,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537847259425</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hr分析新增来源模块">
+      <created>1537847283462</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1537847283462</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131852000" />
+    <option name="totallyTimeSpent" value="138529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,24 +691,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
+      <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pandas/core/indexes/datetimes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="2056" column="0" lean-forward="false" selection-start-line="2056" selection-start-column="0" selection-end-line="2056" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.2/python_stubs/-2010535109/sklearn/svm/libsvm_sparse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1101">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.2/python_stubs/-2010535109/sklearn/svm/libsvm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3624">
@@ -763,13 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pandas/test004.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -962,14 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pandas/test005.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sklearn/demo2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1002,24 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sk/demo01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#68#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/pie2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -1028,13 +995,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pandas/test004.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas/test005.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="1538" column="12" lean-forward="false" selection-start-line="1538" selection-start-column="12" selection-end-line="1538" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo/xdhrcount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="157" column="3" lean-forward="false" selection-start-line="157" selection-start-column="3" selection-end-line="157" selection-end-column="3" />
+        <state relative-caret-position="171">
+          <caret line="205" column="40" lean-forward="false" selection-start-line="205" selection-start-column="40" selection-end-line="205" selection-end-column="40" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <marker date="1537847274439" expanded="true" signature="576:822" ph="select e.id,... hr_resume" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sk/demo01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="e#68#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sk/demo02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

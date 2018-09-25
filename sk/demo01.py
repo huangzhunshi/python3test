@@ -9,6 +9,9 @@ from sklearn import datasets
 from sklearn.linear_model import LinearRegression
 
 import matplotlib.pyplot as plt
+
+from sklearn.model_selection import train_test_split
+
 """
 mac中文编码
 """
