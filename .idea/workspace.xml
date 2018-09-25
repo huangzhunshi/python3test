@@ -46,11 +46,11 @@
       <file leaf-file-name="xdhrcount.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/xdhrcount.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-71">
-              <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+            <state relative-caret-position="206">
+              <caret line="157" column="3" lean-forward="false" selection-start-line="157" selection-start-column="3" selection-end-line="157" selection-end-column="3" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1537847211728" expanded="true" signature="576:822" ph="select e.id,... hr_resume" />
+                <marker date="1537847274439" expanded="true" signature="576:822" ph="select e.id,... hr_resume" />
               </folding>
             </state>
           </provider>
@@ -544,7 +544,7 @@
       <workItem from="1537716407831" duration="4684000" />
       <workItem from="1537772941729" duration="733000" />
       <workItem from="1537775363784" duration="292000" />
-      <workItem from="1537782377228" duration="6908000" />
+      <workItem from="1537782377228" duration="6934000" />
     </task>
     <task id="LOCAL-00001" summary="提交新方法">
       <created>1537718931704</created>
@@ -595,11 +595,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537847186191</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hr分析新增来源模块">
+      <created>1537847259424</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1537847259425</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131826000" />
+    <option name="totallyTimeSpent" value="131852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1023,11 +1030,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/xdhrcount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+        <state relative-caret-position="206">
+          <caret line="157" column="3" lean-forward="false" selection-start-line="157" selection-start-column="3" selection-end-line="157" selection-end-column="3" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1537847211728" expanded="true" signature="576:822" ph="select e.id,... hr_resume" />
+            <marker date="1537847274439" expanded="true" signature="576:822" ph="select e.id,... hr_resume" />
           </folding>
         </state>
       </provider>

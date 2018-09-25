@@ -155,7 +155,7 @@ def getCleanCountChannel(df):
       replace("猎聘","其他网络").replace("大街网","其他网络").replace("58同城","其他网络").replace("51job","其他网络").\
       replace("大街网","其他网络").replace("智联招聘","其他网络").replace("其他","其他网络").groupby("recruite_channel").count().reset_index()
   user_clean["lable"]= user_clean.recruite_channel +"["+user_clean.id.map(str)+"人]"
-  print(user_clean)
+  #print(user_clean)
   return user_clean
 
 
