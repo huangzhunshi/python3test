@@ -4,12 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/test04.py" line="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73114219-7671-40ea-9d81-c8b381eda730" name="Default" comment="训练集，测试集">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sk/test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sk/wordcountdemo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sk/倚天屠龙记所有人物" />
+    <list default="true" id="73114219-7671-40ea-9d81-c8b381eda730" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sk/word2vecdemo.py" afterPath="$PROJECT_DIR$/sk/word2vecdemo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sk/倚天屠龙记所有人物" afterPath="$PROJECT_DIR$/sk/倚天屠龙记所有人物" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,8 +119,8 @@
       <file leaf-file-name="倚天屠龙记所有人物" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sk/倚天屠龙记所有人物">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            <state relative-caret-position="255">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -192,6 +189,7 @@
       <find>张三丰</find>
       <find>赵敏</find>
       <find>谢逊</find>
+      <find>殷梨</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -579,7 +577,7 @@
       <workItem from="1537716407831" duration="4684000" />
       <workItem from="1537772941729" duration="733000" />
       <workItem from="1537775363784" duration="292000" />
-      <workItem from="1537782377228" duration="27204000" />
+      <workItem from="1537782377228" duration="27482000" />
     </task>
     <task id="LOCAL-00001" summary="提交新方法">
       <created>1537718931704</created>
@@ -658,11 +656,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537953456540</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="训练集，测试集">
+      <created>1537975761030</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1537975761030</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152122000" />
+    <option name="totallyTimeSpent" value="152400000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1109,8 +1114,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sk/倚天屠龙记所有人物">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        <state relative-caret-position="255">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding />
         </state>
       </provider>
