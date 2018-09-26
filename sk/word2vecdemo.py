@@ -58,9 +58,11 @@ def demo():
 '''
 def modetest():
     model=word2vec.Word2Vec.load("倚天屠龙记-bin")
-    list= model.most_similar("卫四娘")
+    list= model.most_similar("卫四娘",topn=10)
+
     for str in list:
         print(str[0],str[1])
+
 
 if __name__ == '__main__':
    modetest()
