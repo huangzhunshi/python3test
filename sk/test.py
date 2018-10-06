@@ -1,17 +1,17 @@
 import numpy as np
 
-dt=file = open('倚天屠龙记所有人物.txt')
-val_list = file.readlines()
-lists =[]
-for string in val_list:
-    #string = string.split('\t',3)
-    print(string.split(' ')[0])
-    lists.append(string.split(' ')[0])
+from sklearn import preprocessing
 
-for a in lists:
-    print(a+"xxxx")
+import numpy as np
 
-if "张无忌1111" in lists:
-    print("yes")
+X = np.array([[ 1., -1.,  2.],[ 2.,  0.,  0.],[ 0.,  1., -1.]])
 
-dt.close()
+X_scaled = preprocessing.scale(X)
+
+#print(X)
+#print(X_scaled)
+
+
+b=np.array([1,2,3,4,5,7])
+print(b)
+print(preprocessing.scale(b))
